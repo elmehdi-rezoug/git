@@ -876,6 +876,7 @@ git branch --track greet origin/greet
 Add a remote to your Git repository and push the main and greet branches to the remote.
 
 ```bash
+git remote add github https://github.com/elmehdi-rezoug/cloned_hello.git
 git push github master greet
 ```
 
@@ -908,6 +909,8 @@ This is the Hello World example from the git project.
 Commit the changes and push them to the shared repository.
 
 ```bash
+git add README.md
+git commit -m "updating the readme file"
 git push bare-remote master
 ```
 
@@ -915,5 +918,6 @@ Switch to the cloned repository cloned_hello and pull down the changes just push
 
 ```bash
 cd cloned-hello
-git pull origin
+git remote add bare-remote ../hello.git/
+git pull bare-remote master
 ```
