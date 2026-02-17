@@ -422,9 +422,7 @@ Using Git commands, move the program hello.sh into a lib/ directory, and then co
 
 ```bash
 mkdir lib
-mv hello.sh lib/
-git add lib/
-git rm hello.sh
+git mv hello.sh lib/
 git commit -m "moving hello.sh to lib directory"
 ```
 
