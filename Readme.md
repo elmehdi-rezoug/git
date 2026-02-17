@@ -7,8 +7,8 @@ instructions on website - already installed
 #### Configure Git with your username and email address
 
 ```bash
-git config user.name "erezzoug"
-git config user.email "rezougelmehdi0@gmail.com"
+git config --global user.name "erezzoug"
+git config --global user.email "rezougelmehdi0@gmail.com"
 ```
 
 ### Git commits to commit
