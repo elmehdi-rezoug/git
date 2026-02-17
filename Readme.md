@@ -358,6 +358,7 @@ Ensure that unreferenced commits are deleted from the history, meaning there sho
 
 ```bash
 git tag -d oops
+git gc --prune=now
 git log --all --oneline
 ```
 
